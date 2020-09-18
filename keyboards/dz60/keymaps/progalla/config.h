@@ -16,8 +16,11 @@
 #define rgblight_sethsv_noeeprom_off() rgblight_sethsv_noeeprom(HSV_OFF);
 
 #define KC_FNDN LT(FUNCTION1, KC_DOWN)
+#define KC_FCAPS LT(FUNCTION2, KC_CAPS)
 #define KC_LCRT LCTL_T(KC_RIGHT)
 #define KC_LALFT LALT_T(KC_LEFT)
 #define KC_LSUP LSFT_T(KC_UP)
 
+#define KC_MCON MEH(KC_DOWN)
+#define KC_LPAD MEH(KC_UP)
 // ----------
